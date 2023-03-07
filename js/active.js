@@ -2,7 +2,17 @@
     "use strict";
      $(document).on('ready', function() {	
 	
-			
+		/*====================================
+			Header Sticky JS
+		======================================*/ 
+		jQuery(window).on('scroll', function() {
+			if ($(this).scrollTop() > 1) {
+				$('.header').addClass("sticky");
+			} else {
+				$('.header').removeClass("sticky");
+			}
+		});
+		
 		/*====================================
 			Mobile Menu JS
 		======================================*/ 
@@ -13,20 +23,25 @@
 			easingOpen: "easeOutBounce",
 		});
 		
-
 		/*====================================
-			Sidebar Popup JS
-		======================================*/ 	
-		$('.right-nav .bar').on( "click", function(){
-			$('.sidebar-popup').addClass('active');
+			Portfolio Details JS
+		======================================*/ 
+		$('.home-slider').owlCarousel({
+			items:1,
+			autoplay:false,
+			autoplayTimeout:5000,
+			smartSpeed: 400,
+			autoplayHoverPause:true,
+			loop:true,
+			merge:true,
+			nav:true,
+			dots:false,
+			navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
 		});
 		
-		$('.sidebar-popup .cross').on( "click", function(){
-			$('.sidebar-popup').removeClass('active');
-		});
+
 		
-		
-		
+	});
 
 		/*====================================
 			Scrool Up JS

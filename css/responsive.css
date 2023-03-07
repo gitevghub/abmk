@@ -80,8 +80,6 @@ p{
 .header.style2 .middle-header{
 	top:83px;
 }
-.right-bar:after{
-}
 .right-bar ul li {
 	margin-right: 8px;
 }
@@ -180,7 +178,7 @@ p{
 }
 .single-service h4 a {
   font-size: 18px;
-  margin-bottom: ;
+  margin-bottom: 5px;
 }
 .single-service h4 {
   margin-bottom: 5px;
@@ -281,7 +279,6 @@ p{
 }
 .error-inner h4 {
 	font-size: 80px;
-	lieft: ;
 	line-height: 80px;
 }
 .error .error-inner h2{
@@ -587,8 +584,6 @@ p{
 	width:80%;
 	z-index: 9999;
 }
-.right-bar:after{
-}
 .right-bar ul li {
 	margin-right: 8px;
 }
@@ -606,7 +601,8 @@ p{
 	height: 450px !important;
 }
 .hero-slider .single-slider {
-	background: #fff !important;
+	background: #202020 !important;
+	background-image:url('./img/bg3_mobile.jpg')
 }
 .hero-slider .hero-text .p-text {
 	max-width: 100%;
@@ -691,8 +687,8 @@ p{
   height: 70px;
   line-height: 70px;
   font-size: 25px;
-  margin: ;
-  margin-top: ;
+  margin: 0;
+  margin-top: 0;
   top: 50%;
 }
 .img-feature .video-play {
@@ -732,7 +728,7 @@ p{
 }
 .single-service h4 a {
   font-size: 18px;
-  margin-bottom: ;
+  margin-bottom: 5px;
 }
 .single-service h4 {
   margin-bottom: 5px;
@@ -770,7 +766,7 @@ p{
 	font-size:22px;
 }
 .testimonial-inner .single-slider {
-	padding: ;
+	padding: 0;
 	margin: 0;
 }
 .testimonial-inner .testimonial-slider {
